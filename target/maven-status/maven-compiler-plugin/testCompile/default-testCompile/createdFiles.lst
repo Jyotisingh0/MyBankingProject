@@ -1,0 +1,9 @@
+com\MyBankingProject\pageObjects\AddCustomerPage.class
+com\MyBankingProject\pageObjects\LoginPage.class
+com\MyBankingProject\utilities\XLUtils.class
+com\MyBankingProject\utilities\ExtentReportListener.class
+com\MyBankingProject\testCases\BaseClass.class
+com\MyBankingProject\utilities\ReadConfig.class
+com\MyBankingProject\testCases\TC_LoginDDT_002.class
+com\MyBankingProject\testCases\TC_AddCustomerPage_003.class
+com\MyBankingProject\testCases\TC_LoginPage_001.class
