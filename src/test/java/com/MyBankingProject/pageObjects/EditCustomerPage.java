@@ -21,7 +21,7 @@ WebDriver local_driver;
 	@CacheLookup
 	WebElement lnkEditCustomer;
 	
-	@FindBy(how = How.XPATH, using = "//input[@name = 'cusid']")
+	@FindBy(how = How.XPATH, using = "//input[@name='cusid' and @onkeyup='validatecustomerid();']")
 	@CacheLookup
 	WebElement txtCustomerId;	
 	
