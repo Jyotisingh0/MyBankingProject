@@ -41,8 +41,8 @@ public class TC_AddCustomerPage_003 extends BaseClass
 		addCustomer.submit();
 		
 		
-		  Thread.sleep(3000); boolean result =
-		  driver.getPageSource().contains("Customer Registered Successfully!!!");
+		  Thread.sleep(3000); 
+		  boolean result = driver.getPageSource().contains("Customer Registered Successfully!!!");
 		  
 		  logger.info("Validation Started....."); 
 		  if(result==true) {
